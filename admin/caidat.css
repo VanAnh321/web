@@ -1,0 +1,181 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.page {
+    width: 1200px;
+    min-height: 500px;
+    background-color: blue;
+}
+
+.logo {
+    width: 1276px;
+    height: 100px;
+    background-color: black;
+}
+
+.logo a,
+h1 {
+    text-decoration: none;
+    color: brown;
+    text-align: center;
+    padding-top: 29px;
+}
+
+.trai {
+    width: 300px;
+    height: 500px;
+    background-color: brown;
+    float: left;
+}
+
+.trai .admin {
+    padding-top: 15px;
+}
+
+.trai .admin .inconadmin {
+    float: left;
+    margin-left: 38px;
+    width: 30px;
+    height: 30px;
+}
+
+.trai .admin .chuadmin {
+    float: left;
+    margin-right: 20px;
+    width: 30px;
+    height: 30px;
+    margin-top: 5px;
+}
+
+.trai .admin .email {
+    float: left;
+    margin-left: 15px;
+    margin-top: 3px
+}
+
+.email>a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.email>h4 {
+    color: #eee;
+    font-family: initial;
+}
+
+.chucnang {
+    width: 300px;
+    min-height: 300px;
+    padding-top: 50px;
+}
+
+.chucnang .chungtrai {
+    width: 300px;
+    height: 30px;
+    margin-top: 30px;
+}
+
+.chucnang .caidat {
+    background-color: white;
+}
+
+.chucnang .chungtrai:hover {
+    background-color: #eee;
+}
+
+.chucnang .chungtrai a {
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+
+.phai {
+    width: 1276px;
+    min-height: 500px;
+    float: revert;
+}
+
+.sukien .sk .sktext {
+    background-color: cadetblue;
+}
+
+.sukien .sk .sktext h3 {
+    text-align: center;
+}
+
+.sukien .sk .buton {
+    height: 25px;
+    border: none;
+    background-color: brown;
+    outline: 1px solid #eee;
+    width: 220px;
+    padding-left: 10px;
+    margin-left: 15px;
+    cursor: pointer;
+    color: white;
+    size: 30;
+    margin-top: 10px;
+}
+
+
+/* san pham ban chay */
+
+.sanphambanchay .sp .sptext {
+    background-color: cadetblue;
+    margin-top: 50px;
+}
+
+.sanphambanchay .sp .sptext h3 {
+    text-align: center;
+}
+
+.sanphambanchay .sp .buton {
+    height: 25px;
+    border: none;
+    background-color: brown;
+    outline: 1px solid #eee;
+    width: 100px;
+    padding-left: 10px;
+    margin-left: 50px;
+    cursor: pointer;
+    color: white;
+    size: 30;
+    margin-top: 10px;
+}
+
+
+/* chitietcacsp */
+
+.tatcasp .tcsp .tctext {
+    background-color: cadetblue;
+    margin-top: 50px;
+}
+
+.tatcasp .tcsp .tctext h3 {
+    text-align: center;
+}
+
+.tatcasp .tcsp .buton {
+    height: 25px;
+    border: none;
+    background-color: brown;
+    outline: 1px solid #eee;
+    width: 150px;
+    padding-left: 10px;
+    margin-left: 50px;
+    cursor: pointer;
+    color: white;
+    size: 30;
+    margin-top: 10px;
+}
+
+.butontc select {
+    margin-left: 100px;
+    width: 200px;
+    background-color: brown;
+    height: 25px;
+    color: white;
+    border-color: #eee;
+}

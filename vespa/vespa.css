@@ -1,0 +1,448 @@
+* {
+    padding: 0px;
+    border: none;
+    margin: 0px;
+}
+
+.vespa {
+    width: 100%;
+    min-height: 500px;
+}
+
+.vespa .gioithieu {
+    width: 100%;
+    min-height: 100px;
+    background-color: rgb(43, 41, 41);
+}
+
+.vespa .gioithieu .logo {
+    padding-top: 20px;
+    margin-left: 100px;
+    width: 150px;
+}
+
+.vespa .gioithieu a {
+    padding-top: 15px;
+    text-decoration: none;
+    color: #b80808;
+    margin-left: 50px;
+}
+
+.vespa .hover {
+    cursor: pointer;
+}
+
+.vespa .hover:hover {
+    background-color: beige;
+    transform: scale(1.05);
+}
+
+.vespa .dong1 {
+    width: 1000px;
+    height: 300px;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.vespa .dong1 .msx {
+    width: 242px;
+    margin-left: 0px;
+    float: left;
+    background-color: white;
+    border: solid 1px #999;
+    border-bottom: 2px solid black;
+}
+
+.msx a {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+.msx a:hover {
+    color: rgb(184, 8, 8);
+}
+
+.vespa .dong1 .sh {
+    float: left;
+    background-color: white;
+    margin-left: 9px;
+    width: 242px;
+    border: solid 1px #999;
+    border-bottom: 2px solid black;
+}
+
+.sh a {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+.sh a:hover {
+    color: rgb(184, 8, 8);
+}
+
+.vespa .dong1 .cb {
+    float: left;
+    background-color: white;
+    margin-left: 9px;
+    width: 242px;
+    border: solid 1px #999;
+    border-bottom: 2px solid black;
+}
+
+.cb a {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+.cb a:hover {
+    color: rgb(184, 8, 8);
+}
+
+.vespa .dong1 .ab {
+    float: left;
+    background-color: white;
+    margin-left: 5px;
+    width: 242px;
+    border: solid 1px #999;
+    border-bottom: 2px solid black;
+}
+
+.ab a {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+.ab a:hover {
+    color: rgb(184, 8, 8);
+}
+
+
+/* dong 2mmmmmmmmmmmmmmmmmmmmmmm */
+
+.vespa .dong2 {
+    width: 1000px;
+    height: 300px;
+    margin: auto;
+    margin-top: 200px;
+}
+
+.vespa .dong2 .cub {
+    width: 242px;
+    margin-left: 0px;
+    float: left;
+    background-color: white;
+    border: solid 1px #999;
+    border-bottom: 2px solid black;
+}
+
+.cub a {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+.cub a:hover {
+    color: rgb(184, 8, 8);
+}
+
+.vespa .dong2 .cbr150 {
+    float: left;
+    background-color: white;
+    margin-left: 9px;
+    width: 242px;
+    border: solid 1px #999;
+    border-bottom: 2px solid black;
+}
+
+.cbr150 a {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+.cbr150 a:hover {
+    color: rgb(184, 8, 8);
+}
+
+.vespa .dong2 .winx {
+    float: left;
+    background-color: white;
+    margin-left: 9px;
+    width: 242px;
+    border: solid 1px #999;
+    border-bottom: 2px solid black;
+}
+
+.winx a {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+.winx a:hover {
+    color: rgb(184, 8, 8);
+}
+
+.vespa .dong2 .monkey {
+    float: left;
+    background-color: white;
+    margin-left: 5px;
+    width: 242px;
+    border: solid 1px #999;
+    border-bottom: 2px solid black;
+}
+
+.monkey a {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+.monkey a:hover {
+    color: rgb(184, 8, 8);
+}
+
+
+/* dong3mmmmmmmmmmmmmmmmmmmmmmmmmmmmm */
+
+.vespa .dong3 {
+    width: 1000px;
+    height: 300px;
+    margin: auto;
+    margin-top: 200px;
+}
+
+.vespa .dong3 .msx2019 {
+    width: 242px;
+    margin-left: 0px;
+    float: left;
+    background-color: white;
+    border: solid 1px #999;
+    border-bottom: 2px solid black;
+}
+
+.msx2019 a {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+.msx2019 a:hover {
+    color: rgb(184, 8, 8);
+}
+
+.vespa .dong3 .pcx {
+    float: left;
+    background-color: white;
+    margin-left: 9px;
+    width: 242px;
+    border: solid 1px #999;
+    border-bottom: 2px solid black;
+}
+
+.pcx a {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+.pcx a:hover {
+    color: rgb(184, 8, 8);
+}
+
+.vespa .dong3 .vision110 {
+    float: left;
+    background-color: white;
+    margin-left: 9px;
+    width: 242px;
+    border: solid 1px #999;
+    border-bottom: 2px solid black;
+}
+
+.vision110 a {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+.vision110 a:hover {
+    color: rgb(184, 8, 8);
+}
+
+.vespa .dong3 .sh2018 {
+    float: left;
+    background-color: white;
+    margin-left: 5px;
+    width: 242px;
+    border: solid 1px #999;
+    border-bottom: 2px solid black;
+}
+
+.sh2018 a {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+.sh2018 a:hover {
+    color: rgb(184, 8, 8);
+}
+
+
+/* DONG 4MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM */
+
+.vespa .dong4 {
+    width: 1000px;
+    height: 300px;
+    margin: auto;
+    margin-top: 200px;
+}
+
+.vespa .dong4 .future2018 {
+    width: 242px;
+    margin-left: 0px;
+    float: left;
+    background-color: white;
+    border: solid 1px #999;
+    border-bottom: 2px solid black;
+}
+
+.future2018 a {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+.future2018 a:hover {
+    color: rgb(184, 8, 8);
+}
+
+.vespa .dong4 .pcx2018 {
+    float: left;
+    background-color: white;
+    margin-left: 9px;
+    width: 242px;
+    border: solid 1px #999;
+    border-bottom: 2px solid black;
+}
+
+.pcx2018 a {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+.pcx2018 a:hover {
+    color: rgb(184, 8, 8);
+}
+
+.vespa .dong4 .sh125 {
+    float: left;
+    background-color: white;
+    margin-left: 9px;
+    width: 242px;
+    border: solid 1px #999;
+    border-bottom: 2px solid black;
+}
+
+.sh125 a {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+.sh125 a:hover {
+    color: rgb(184, 8, 8);
+}
+
+.vespa .dong4 .rebel300 {
+    float: left;
+    background-color: white;
+    margin-left: 5px;
+    width: 242px;
+    border: solid 1px #999;
+    border-bottom: 2px solid black;
+}
+
+.rebel300 a {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+.rebel300 a:hover {
+    color: rgb(184, 8, 8);
+}
+
+
+/* DONG5MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM */
+
+.vespa .dong5 {
+    width: 1000px;
+    height: 300px;
+    margin: auto;
+    margin-top: 200px;
+}
+
+.vespa .dong5 .airblack {
+    width: 242px;
+    margin-left: 0px;
+    float: left;
+    background-color: white;
+    border: solid 1px #999;
+    border-bottom: 2px solid black;
+}
+
+.airblack a {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+.airblack a:hover {
+    color: rgb(184, 8, 8);
+}
+
+
+/* ket thc trang */
+
+.vespa .ketthuctrang {
+    width: 100%;
+    height: 100px;
+    background-color: #999;
+    margin-top: 50px;
+}
+
+
+/* nhà phát triển */
+
+.gt .npt {
+    margin-top: -20px;
+}
+
+.gt .npt h4 {
+    color: yellowgreen;
+}
+
+.gt {
+    margin: auto;
+    width: 100%;
+    padding-top: 250px;
+}
+
+.gt .npt {
+    float: left;
+    background-color: rgb(19, 18, 18);
+    width: 100%;
+    height: 100px;
+}
+
+.gt .npt a {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}

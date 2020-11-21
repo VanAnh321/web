@@ -1,0 +1,660 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css.css">
+    <link rel="stylesheet" href="js.js">
+    <link rel="stylesheet" href="thongtin.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+
+
+    <script src="jquery/jqury.js"></script>
+
+    <title>Cửa Hàng Xe Máy</title>
+</head>
+
+<script>
+    var index = 1;
+
+    changeimg = function() {
+        var imgs = [" img/honda.jpg", "img/vespa.jpg", "img/suzuki.png", "img/KV-scooter-final-1.jpg.webp", "img/sym.jpg"];
+        document.getElementById("img").src = imgs[index];
+        index++;
+        if (index == 5) {
+            index = 0;
+        }
+    }
+    setInterval(changeimg, 5000)
+</script>
+
+<style>
+    .s {
+        font-weight: 500px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    
+    .dautien .dangky .a {
+        float: left;
+        margin-left: 20px;
+        margin-top: 15px;
+    }
+    
+    .dautien .dangky .a {
+        float: left;
+        margin-left: 20px;
+        text-decoration: none;
+    }
+    
+    .dautien .dangky .a a {
+        text-decoration: none;
+        color: brown;
+    }
+    
+    .dautien .dangky .a .user {
+        width: 57px;
+    }
+    
+    .dautien .dangky .a a:hover {
+        color: white;
+    }
+    
+    .dautien .dangky .bt-user {
+        color: #ff0404;
+        border: none;
+        border-radius: 10px;
+        float: right;
+        width: 23px;
+        height: 20px;
+        background-color: #842a2a;
+    }
+    
+    .dautien .dangky .bt-user i {
+        float: left;
+        font-size: 16px;
+        padding-left: 4px
+    }
+    
+    .dautien .dangky h5 {
+        float: left;
+    }
+</style>
+
+<body>
+    <div id="page">
+        <!-- dautiennnnnnnnnnnnnnnnnnnnnnn -->
+        <div class="dautien" style="width: 100%;height: 100px;background-color: rgb(19, 18, 18);">
+
+            <div class="logo" style=" float: left;width: 180px;height: 50px;padding-left: 50px;padding-top: 20px;">
+                <a href="user.html">
+                    <h1>VAXEMAY</h1>
+                </a>
+            </div>
+
+            <div class="timkiem" style="float: left;;padding-top: 20px;padding-left: 20px;">
+
+                <input type="text" placeholder="Tìm Kiếm" style="width: 500px;height: 30px;">
+                <button style="height: 33px;width: 70px;margin-left: -4px; background-color: brown;border: none; color: white;">Tìm</button>
+
+            </div>
+
+
+            <div class="pk" style="width: 400px; height: 30px; margin-left: 320px; padding-top: 60px;">
+
+                <div class="50cc s" style="float: left;">
+                    <a href="">
+                        <h4>50cc</h4>
+                    </a>
+                </div>
+                <div class=" 100cc s " style="float: left; ">
+                    <a href=" ">
+                        <h4>100cc</h4>
+                    </a>
+                </div>
+                <div class="150cc s " style="float: left; ">
+                    <a href=" ">
+                        <h4>150cc</h4>
+                    </a>
+                </div>
+                <div class="pkl s " style="float: left; ">
+                    <a href=" ">
+                        <h4>Phân khối lớn</h4>
+                    </a>
+                </div>
+
+
+
+
+            </div>
+
+            <div class="dangky " style="width: 450px; height: 40px; float: right;margin-top: -75px;font-family: 'Times New Roman', Times, serif; ">
+                <div class="lienhe a ">
+                    <a href="lichsumuahang.html">
+                        <h5>Lịch sử mua hàng</h5>
+                    </a>
+                </div>
+                <div class="dangky a user" style="width: 57px;">
+                    <a href="hoso.html">
+                        <h5>User</h5>
+                        <button class="bt-user" style="margin-top: 4px;"> 
+                            <i class="fas fa-user"></i>
+                        </button>
+                    </a>
+                </div>
+
+                <div class="dangnhap a ">
+                    <a href="">
+                        <h5></h5>
+                    </a>
+                </div>
+
+
+
+                <div class="hotline a ">
+                    <h5 style="color: brown; ">Hot Line : 0123456789</h5>
+                </div>
+
+            </div>
+
+
+
+
+
+
+
+
+
+        </div>
+
+
+
+
+
+        <!-- quangcaoooooooooooooooooooooo -->
+
+        <div class="quangcao " style="margin: auto; ">
+
+            <img src="img/honda.jpg " alt=" " width="100% " height="550px " onclick="changeimg() " id="img ">
+
+        </div>
+
+        <div class="xe ">
+
+            <div class="honda ">
+                <div class="tua ">
+                    <div class="iconhonda ">
+                        <h3>HONDA</h3>
+                    </div>
+                    <div class="xemtc "><a href="../honda/honda.html" class="tc ">Xem tất cả</a></div>
+
+
+
+                </div>
+
+                <div class="sp ">
+                    <div class="msx hover ">
+
+
+                        <a href="../user/chitietsp/honda/MSX125.html">
+                            <img src="img/honda/msx.png " alt=" " width="242px " height="300px ">
+                            <h4>MSX125 2020</h4>
+                        </a>
+                    </div>
+                    <div class="ab hover ">
+
+                        <a href="../user/chitietsp/honda/AIR BLACK.html">
+                            <img src="img/honda/ab.png " alt=" " width="242 " height="300px ">
+                            <H4>HONDA AIR BLACK</H4>
+                        </a>
+                    </div>
+                    <div class="cb hover ">
+                        <a href="../user/chitietsp/honda/CB300R.html">
+                            <img src="img/honda/CB300R.png " alt=" " width="242px " height="300px ">
+                            <h4>HONDA CBR300 2020</h4>
+                        </a>
+
+
+
+                    </div>
+                    <div class="sh hover "><img src="img/honda/sh.png " alt=" " width="242px " height="300px ">
+                        <a href="../user/chitietsp/honda/SH2020.html">
+                            <h4>HONDA SH2020</h4>
+                        </a>
+
+
+                    </div>
+                </div>
+
+
+
+            </div>
+
+
+            <!-- /*yamaha*/ -->
+
+
+            <div class="yamaha ">
+                <div class="tuayamaha ">
+                    <div class="iconyamaha ">
+                        <h3>YAMAHA</h3>
+                    </div>
+                    <div class="xemtcyamaha "><a href="../yamaha/yamaha.html" class="tcyamaha ">Xem tất cả</a></div>
+
+
+
+                </div>
+
+                <div class="spyamaha ">
+                    <div class="frt hover ">
+                        <img src="img/yamaha/freego-phien-ban-tieu-chuan.png " alt=" " width="242px " height="300px ">
+
+                        <a href=" ">
+                            <h4>FREEGO 2019</h4>
+                        </a>
+                    </div>
+                    <div class="fr hover ">
+                        <img src="img/yamaha/freego.png " alt=" " width="242px " height="300px ">
+                        <a href=" ">
+                            <h4>FREEGO 2020</h4>
+                        </a>
+                    </div>
+                    <div class=" gr hover "><img src="img/yamaha/Grande-hybrid.jpg " alt=" " width="242px " height="300px ">
+                        <a href=" ">
+                            <h4>YAMAHA GRADE 2020</h4>
+                        </a>
+
+
+
+                    </div>
+                    <div class="lt hover "><img src="img/yamaha/LATTE.png " alt=" " width="242px " height="300px ">
+                        <a href=" ">
+                            <h4>YAMAHA LATTE 2020</h4>
+                        </a>
+
+
+                    </div>
+                </div>
+
+
+
+            </div>
+
+
+
+            <!-- suzuki -->
+
+            <div class="suzuki ">
+                <div class="tuasuzuki ">
+                    <div class="iconsuzuki ">
+                        <h3>SUZUKI</h3>
+                    </div>
+                    <div class="xemtcsuzuki "><a href="../suzuki/suzuki.html" class="tcsuzuki ">Xem tất cả</a></div>
+
+
+
+                </div>
+
+                <div class="spsuzuki ">
+                    <div class="rd hover ">
+                        <img src="img/suzuki/raider2019.jpg " alt=" " width="242px " height="300px ">
+
+                        <a href=" ">
+                            <h4>RAIDER 2019</h4>
+                        </a>
+                    </div>
+                    <div class="st hover ">
+                        <img src="img/suzuki/satria-2020.png " alt=" " width="242px " height="300px ">
+                        <a href=" ">
+                            <h4>SATRIA 2020</h4>
+                        </a>
+                    </div>
+                    <div class=" gs hover "><img src="img/suzuki/gsx150.jpg " alt=" " width="242px " height="300px ">
+                        <a href=" ">
+                            <h4>GSX 150</h4>
+                        </a>
+
+
+
+                    </div>
+                    <div class="im hover "><img src="img/suzuki/impulse2019.jpg " alt=" " width="242px " height="300px ">
+                        <a href=" ">
+                            <h4> IMPULSE 2019 </h4>
+                        </a>
+
+
+                    </div>
+                </div>
+
+
+
+            </div>
+
+
+            <!-- xe nhap khau -->
+
+            <div class="nhapkhau ">
+                <div class="tuanhapkhau ">
+                    <div class="iconnhapkhau ">
+                        <h3>XE NHẬP KHẨU</h3>
+                    </div>
+                    <div class="xemtcnhapkhau "><a href="../xenhapkhau/xenhapkhau.html" class="tcnhapkhau ">Xem tất cả</a></div>
+
+
+
+                </div>
+
+                <div class="spnhapkhau ">
+                    <div class="shnk hover ">
+                        <img src="img/xenhapkhau/sh-300i-2020.png " alt=" " width="240px " height="300px ">
+
+                        <a href=" ">
+                            <h4>SH300 2020</h4>
+                        </a>
+                    </div>
+                    <div class="fz hover ">
+                        <img src="img/xenhapkhau/forza.png " alt=" " width="242px " height="300px ">
+                        <a href=" ">
+                            <h4>FORZA 2020</h4>
+                        </a>
+                    </div>
+                    <div class=" lx hover "><img src="img/xenhapkhau/yamaha-lexi.png " alt=" " width="242px " height="300px ">
+                        <a href=" ">
+                            <h4>LEXI 2020</h4>
+                        </a>
+
+
+
+                    </div>
+                    <div class="xr hover "><img src="img/xenhapkhau/Yamaha-XRS-155.png " alt=" " width="242px " height="300px ">
+                        <a href=" ">
+                            <h4> XRS155 2020 </h4>
+                        </a>
+
+
+                    </div>
+                </div>
+
+
+
+            </div>
+
+
+
+            <!-- kawasaki -->
+
+
+
+            <div class="kawasaki ">
+                <div class="tuakawasaki ">
+                    <div class="iconkawasaki ">
+                        <h3>KAWASAKI</h3>
+                    </div>
+                    <div class="xemtckawasaki "><a href="../kawasaki/kawasaki.html" class="tckawasaki ">Xem tất cả</a></div>
+
+
+
+                </div>
+
+                <div class="spkawasaki ">
+                    <div class="z900 hover ">
+                        <img src="img/kawasaki/Z900.jpg " alt=" " width="240px " height="300px ">
+
+                        <a href=" ">
+                            <h4>KAWASAKI Z900 2020</h4>
+                        </a>
+                    </div>
+                    <div class="kw hover ">
+                        <img src="img/kawasaki/kw-product-color-2-2-600x338.jpg " alt=" " width="242px " height="300px ">
+                        <a href=" ">
+                            <h4>FORZA 2020</h4>
+                        </a>
+                    </div>
+                    <div class=" kl hover "><img src="img/kawasaki/klx-camo-600x450.jpg " alt=" " width="242px " height="300px ">
+                        <a href=" ">
+                            <h4>LEXI 2020</h4>
+                        </a>
+
+
+
+                    </div>
+                    <div class="k54 hover "><img src="img/kawasaki/548987425.jpg " alt=" " width="242px " height="300px ">
+                        <a href=" ">
+                            <h4> XRS155 2020 </h4>
+                        </a>
+
+
+                    </div>
+                </div>
+
+
+
+            </div>
+
+
+            <!-- sym -->
+
+            <div class="sym ">
+                <div class="tuasym ">
+                    <div class="iconsym ">
+                        <h3>SYM</h3>
+                    </div>
+                    <div class="xemtcsym "><a href="../sym/sym.html" class="tcsym ">Xem tất cả</a></div>
+
+
+
+                </div>
+
+                <div class="spsym ">
+                    <div class="abe hover ">
+                        <img src="img/sym/Abela-110-1.jpg " alt=" " width="240px " height="300px ">
+
+                        <a href=" ">
+                            <h4>SYM ABELA 2020</h4>
+                        </a>
+                    </div>
+                    <div class="ang hover ">
+                        <img src="img/sym/angel-110r.jpg " alt=" " width="242px " height="300px ">
+                        <a href=" ">
+                            <h4>SYM ANGEL 2020</h4>
+                        </a>
+                    </div>
+                    <div class=" ga hover "><img src="img/sym/galaxy-50.jpg " alt=" " width="242px " height="300px ">
+                        <a href=" ">
+                            <h4>SYM GALAXY 50cc</h4>
+                        </a>
+
+
+
+                    </div>
+                    <div class="fancy hover "><img src="img/sym/sym-fancy-125-efi-7.jpg " alt=" " width="242px " height="300px ">
+                        <a href=" ">
+                            <h4>SYM FANCY 2020 </h4>
+                        </a>
+
+
+                    </div>
+                </div>
+
+
+
+            </div>
+
+
+            <!-- vespa -->
+
+            <div class="vespa ">
+                <div class="tuavespa ">
+                    <div class="iconvespa ">
+                        <h3>PIAGGO</h3>
+                    </div>
+                    <div class="xemtcvespa "><a href="../vespa/vespa.html" class="tcvespa ">Xem tất cả</a></div>
+
+
+
+                </div>
+
+                <div class="spvespa ">
+                    <div class="xblu hover ">
+                        <img src="img/vespa/liberty-abs-xanh-blu-Copy.png " alt=" " width="240px " height="300px ">
+
+                        <a href=" ">
+                            <h4>LIBERTY ABS</h4>
+                        </a>
+                    </div>
+                    <div class="gts125 hover ">
+                        <img src="img/vespa/vespa-gts-125-2.jpg " alt=" " width="242px " height="300px ">
+                        <a href=" ">
+                            <h4>VESPA GTS 125 2020</h4>
+                        </a>
+                    </div>
+                    <div class=" gts300 hover "><img src="img/vespa/vespa-gts-300-2.jpg " alt=" " width="242px " height="300px ">
+                        <a href=" ">
+                            <h4>VESPA GTS 300</h4>
+                        </a>
+
+
+
+                    </div>
+                    <div class="px125 hover "><img src="img/vespa/vespa-lx-125-6-1.jpg " alt=" " width="242px " height="300px ">
+                        <a href=" ">
+                            <h4>VESPA PX </h4>
+                        </a>
+
+
+                    </div>
+                </div>
+
+
+
+            </div>
+
+
+            <!-- nút back top -->
+
+            <div style="padding-left: 20px;margin-top: 100px;width: 100px;height: 100px;float:right;margin-top: 320px; ">
+                <a href=" " class="cd-top "><img src="img/back_top.png " width="50px " height="50px " alt=" "></a>
+            </div>
+
+
+
+            <!-- thong tin -->
+
+            <div class="gt ">
+
+                <div class="noidung">
+                    <div class="lsgd cuoitrang">
+                        <a href="lichsumuahang.html">
+                            <h5>Lịch sử giao dịch</h5>
+                        </a>
+                    </div>
+
+                    <div class="khieunai cuoitrang">
+                        <a href="../divcuoitranweb/khieunai.html">
+
+                            <h5>Góp ý,khiếu nại</h5>
+                        </a>
+                    </div>
+
+                    <div class="noiquy cuoitrang">
+                        <a href="divcuoitranweb/noiquycuahang.html">
+                            <h5>Nội quy cửa hàng</h5>
+                        </a>
+                    </div>
+
+
+
+
+
+                </div>
+
+                <div class="sdt">
+                    <div class="goimuahang a">
+                        <h5 style="float: left;color: brown;">Gọi mua hàng</h5>
+                        <a href="" style="float: left; margin-left: 5px; font-size: small;">: 0123456789</a>
+                    </div>
+
+                    <div class="goikhieunai a">
+                        <h5>Gọi khiếu nại</h5>
+
+                        <a href="">: 0987654321</a>
+                    </div>
+
+                    <div class="goibaohanh a">
+                        <h5>Gọi bảo hành</h5>
+                        <a href="">: 0113223223</a>
+
+                    </div>
+                </div>
+
+                <div class="npt">
+                    <h4>Người tạo trang web</h4>
+                    <div class="thanhvien">
+                        <a href="">
+                            <h5>Võ Văn Anh</h5>
+                        </a>
+                        <a href="">
+                            <h5>Bùi Trí</h5>
+                        </a>
+                        <a href="">
+                            <h5>Huỳnh Đức</h5>
+                        </a>
+                    </div>
+
+
+                </div>
+
+
+
+
+
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+    </div>
+
+</body>
+
+</html>

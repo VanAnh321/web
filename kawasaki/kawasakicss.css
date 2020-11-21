@@ -1,0 +1,550 @@
+* {
+    padding: 0px;
+    border: none;
+    margin: 0px;
+}
+
+.kawasaki {
+    width: 100%;
+    min-height: 500px;
+}
+
+.kawasaki .gioithieu {
+    width: 100%;
+    min-height: 100px;
+    background-color: rgb(43, 41, 41);
+}
+
+.kawasaki .gioithieu .logo {
+    padding-top: 20px;
+    margin-left: 100px;
+    width: 150px;
+}
+
+.kawasaki .gioithieu a {
+    padding-top: 15px;
+    text-decoration: none;
+    color: #b80808;
+}
+
+.kawasaki.hover {
+    cursor: pointer;
+}
+
+.kawasaki .hover:hover {
+    background-color: beige;
+    transform: scale(1.05);
+}
+
+.kawasaki .dong1 {
+    width: 1000px;
+    height: 300px;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.kawasaki .dong1 .msx {
+    width: 242px;
+    margin-left: 0px;
+    float: left;
+    background-color: white;
+    border: solid 1px #999;
+    border-bottom: 2px solid black;
+}
+
+.msx a {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+.msx a:hover {
+    color: rgb(184, 8, 8);
+}
+
+.kawasaki .dong1 .sh {
+    float: left;
+    background-color: white;
+    margin-left: 9px;
+    width: 242px;
+    border: solid 1px #999;
+    border-bottom: 2px solid black;
+}
+
+.sh a {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+.sh a:hover {
+    color: rgb(184, 8, 8);
+}
+
+.kawasaki .dong1 .cb {
+    float: left;
+    background-color: white;
+    margin-left: 9px;
+    width: 242px;
+    border: solid 1px #999;
+    border-bottom: 2px solid black;
+}
+
+.cb a {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+.cb a:hover {
+    color: rgb(184, 8, 8);
+}
+
+.kawasaki .dong1 .ab {
+    float: left;
+    background-color: white;
+    margin-left: 5px;
+    width: 242px;
+    border: solid 1px #999;
+    border-bottom: 2px solid black;
+}
+
+.ab a {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+.ab a:hover {
+    color: rgb(184, 8, 8);
+}
+
+
+/* dong 2mmmmmmmmmmmmmmmmmmmmmmm */
+
+.kawasaki .dong2 {
+    width: 1000px;
+    height: 300px;
+    margin: auto;
+    margin-top: 200px;
+}
+
+.kawasaki .dong2 .cub {
+    width: 242px;
+    margin-left: 0px;
+    float: left;
+    background-color: white;
+    border: solid 1px #999;
+    border-bottom: 2px solid black;
+}
+
+.cub a {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+.cub a:hover {
+    color: rgb(184, 8, 8);
+}
+
+.kawasaki .dong2 .cbr150 {
+    float: left;
+    background-color: white;
+    margin-left: 9px;
+    width: 242px;
+    border: solid 1px #999;
+    border-bottom: 2px solid black;
+}
+
+.cbr150 a {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+.cbr150 a:hover {
+    color: rgb(184, 8, 8);
+}
+
+.kawasaki .dong2 .winx {
+    float: left;
+    background-color: white;
+    margin-left: 9px;
+    width: 242px;
+    border: solid 1px #999;
+    border-bottom: 2px solid black;
+}
+
+.winx a {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+.winx a:hover {
+    color: rgb(184, 8, 8);
+}
+
+.kawasaki .dong2 .monkey {
+    float: left;
+    background-color: white;
+    margin-left: 5px;
+    width: 242px;
+    border: solid 1px #999;
+    border-bottom: 2px solid black;
+}
+
+.monkey a {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+.monkey a:hover {
+    color: rgb(184, 8, 8);
+}
+
+
+/* dong3mmmmmmmmmmmmmmmmmmmmmmmmmmmmm */
+
+.kawasaki .dong3 {
+    width: 1000px;
+    height: 300px;
+    margin: auto;
+    margin-top: 200px;
+}
+
+.kawasaki .dong3 .msx2019 {
+    width: 242px;
+    margin-left: 0px;
+    float: left;
+    background-color: white;
+    border: solid 1px #999;
+    border-bottom: 2px solid black;
+}
+
+.msx2019 a {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+.msx2019 a:hover {
+    color: rgb(184, 8, 8);
+}
+
+.kawasaki .dong3 .pcx {
+    float: left;
+    background-color: white;
+    margin-left: 9px;
+    width: 242px;
+    border: solid 1px #999;
+    border-bottom: 2px solid black;
+}
+
+.pcx a {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+.pcx a:hover {
+    color: rgb(184, 8, 8);
+}
+
+.kawasaki .dong3 .vision110 {
+    float: left;
+    background-color: white;
+    margin-left: 9px;
+    width: 242px;
+    border: solid 1px #999;
+    border-bottom: 2px solid black;
+}
+
+.vision110 a {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+.vision110 a:hover {
+    color: rgb(184, 8, 8);
+}
+
+.kawasaki .dong3 .sh2018 {
+    float: left;
+    background-color: white;
+    margin-left: 5px;
+    width: 242px;
+    border: solid 1px #999;
+    border-bottom: 2px solid black;
+}
+
+.sh2018 a {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+.sh2018 a:hover {
+    color: rgb(184, 8, 8);
+}
+
+
+/* DONG 4MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM */
+
+.kawasaki .dong4 {
+    width: 1000px;
+    height: 300px;
+    margin: auto;
+    margin-top: 200px;
+}
+
+.kawasaki .dong4 .future2018 {
+    width: 242px;
+    margin-left: 0px;
+    float: left;
+    background-color: white;
+    border: solid 1px #999;
+    border-bottom: 2px solid black;
+}
+
+.future2018 a {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+.future2018 a:hover {
+    color: rgb(184, 8, 8);
+}
+
+.kawasaki .dong4 .pcx2018 {
+    float: left;
+    background-color: white;
+    margin-left: 9px;
+    width: 242px;
+    border: solid 1px #999;
+    border-bottom: 2px solid black;
+}
+
+.pcx2018 a {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+.pcx2018 a:hover {
+    color: rgb(184, 8, 8);
+}
+
+.kawasaki .dong4 .sh125 {
+    float: left;
+    background-color: white;
+    margin-left: 9px;
+    width: 242px;
+    border: solid 1px #999;
+    border-bottom: 2px solid black;
+}
+
+.sh125 a {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+.sh125 a:hover {
+    color: rgb(184, 8, 8);
+}
+
+.kawasaki .dong4 .rebel300 {
+    float: left;
+    background-color: white;
+    margin-left: 5px;
+    width: 242px;
+    border: solid 1px #999;
+    border-bottom: 2px solid black;
+}
+
+.rebel300 a {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+.rebel300 a:hover {
+    color: rgb(184, 8, 8);
+}
+
+
+/* DONG5MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM */
+
+.kawasaki .dong5 {
+    width: 1000px;
+    height: 300px;
+    margin: auto;
+    margin-top: 200px;
+}
+
+.kawasaki .dong5 .airblack {
+    width: 242px;
+    margin-left: 0px;
+    float: left;
+    background-color: white;
+    border: solid 1px #999;
+    border-bottom: 2px solid black;
+}
+
+.airblack a {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+.airblack a:hover {
+    color: rgb(184, 8, 8);
+}
+
+.kawasaki .dong5 .lead {
+    float: left;
+    background-color: white;
+    margin-left: 9px;
+    width: 242px;
+    border: solid 1px #999;
+    border-bottom: 2px solid black;
+}
+
+.lead a {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+.lead a:hover {
+    color: rgb(184, 8, 8);
+}
+
+.kawasaki .dong5 .msx2017 {
+    float: left;
+    background-color: white;
+    margin-left: 9px;
+    width: 242px;
+    border: solid 1px #999;
+    border-bottom: 2px solid black;
+}
+
+.msx2017 a {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+.msx2017 a:hover {
+    color: rgb(184, 8, 8);
+}
+
+.kawasaki .dong5 .wave110 {
+    float: left;
+    background-color: white;
+    margin-left: 5px;
+    width: 242px;
+    border: solid 1px #999;
+    border-bottom: 2px solid black;
+}
+
+.wave110 a {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+.wave110 a:hover {
+    color: rgb(184, 8, 8);
+}
+
+
+/* DONG6MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM */
+
+.kawasaki .dong6 {
+    width: 1000px;
+    height: 300px;
+    margin: auto;
+    margin-top: 200px;
+}
+
+.kawasaki .dong6 .sh150 {
+    width: 242px;
+    margin-left: 0px;
+    float: left;
+    background-color: white;
+    border: solid 1px #999;
+    border-bottom: 2px solid black;
+}
+
+.sh150 a {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+.sh150 a:hover {
+    color: rgb(184, 8, 8);
+}
+
+.kawasaki .dong6 .sh300i {
+    float: left;
+    background-color: white;
+    margin-left: 9px;
+    width: 242px;
+    border: solid 1px #999;
+    border-bottom: 2px solid black;
+}
+
+.sh300i a {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+.sh300i a:hover {
+    color: rgb(184, 8, 8);
+}
+
+.kawasaki .dong6 .wave100 {
+    float: left;
+    background-color: white;
+    margin-left: 9px;
+    width: 242px;
+    border: solid 1px #999;
+    border-bottom: 2px solid black;
+}
+
+.wave100 a {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+.wave100 a:hover {
+    color: rgb(184, 8, 8);
+}
+
+.kawasaki .dong6 .win150 {
+    float: left;
+    background-color: white;
+    margin-left: 5px;
+    width: 242px;
+    border: solid 1px #999;
+    border-bottom: 2px solid black;
+}
+
+.win150 a {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+.win150 a:hover {
+    color: rgb(184, 8, 8);
+}

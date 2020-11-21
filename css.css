@@ -1,0 +1,1050 @@
+#page {
+    width: 1300px;
+    height: auto;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+/* đầu tiên */
+
+.dautien .logo a {
+    text-decoration: none;
+    color: brown;
+}
+
+.dautien .pk .s {
+    margin-left: 30px;
+}
+
+.dautien .pk .s a {
+    text-decoration: none;
+    color: brown;
+}
+
+.dautien .pk .s a:hover {
+    color: white;
+}
+
+.dautien .dangky .a {
+    float: left;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+.dautien .dangky .a {
+    float: left;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+.dautien .dangky .a a {
+    text-decoration: none;
+    color: brown;
+}
+
+.dautien .dangky .a a h5:hover {
+    color: white;
+}
+
+#page .quangcao {
+    margin-left: 100px;
+}
+
+
+/*quangcao*/
+
+
+/*/////////////////////////////////////////////////////////////hondahonda/////////*/
+
+#page .xe .honda {
+    margin: auto;
+    width: 1000px;
+    height: 32px;
+    background-color: #eee;
+    border-top: #b80808 solid;
+}
+
+#page .xe .honda .hover {
+    cursor: pointer;
+}
+
+#page .xe .honda .hover:hover {
+    transform: scale(1.05);
+}
+
+#page .xe .honda .tua .iconhonda {
+    float: left;
+    background-color: rgb(184, 8, 8);
+    width: 150px;
+    height: 30px;
+}
+
+#page .xe .honda .tua .iconhonda h3 {
+    text-align: center;
+}
+
+#page .xe .honda .tua .tc {
+    float: right;
+    text-decoration: none;
+    background-color: rgb(184, 8, 8);
+    color: black;
+    width: 150px;
+    height: 30px;
+    text-align: center;
+}
+
+.xe .honda .sp {
+    width: 1000px;
+    margin: auto;
+    height: 300px;
+    margin-top: 33px;
+}
+
+.xe .honda .sp .msx {
+    width: 242px;
+    margin-left: 0px;
+    float: left;
+    background-color: white;
+    border: solid 1px #999;
+    border-bottom: 2px solid black;
+}
+
+.msx a {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+.msx a:hover {
+    color: rgb(184, 8, 8);
+}
+
+.xe .honda .sp .sh {
+    float: left;
+    background-color: white;
+    margin-left: 9px;
+    width: 242px;
+    border: solid 1px #999;
+    border-bottom: 2px solid black;
+}
+
+.sh a {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+.sh a:hover {
+    color: rgb(184, 8, 8);
+}
+
+.xe .honda .sp .cb {
+    float: left;
+    background-color: white;
+    margin-left: 9px;
+    width: 242px;
+    border: solid 1px #999;
+    border-bottom: 2px solid black;
+}
+
+.cb a {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+.cb a:hover {
+    color: rgb(184, 8, 8);
+}
+
+.xe .honda .sp .ab {
+    float: left;
+    background-color: white;
+    margin-left: 5px;
+    width: 242px;
+    border: solid 1px #999;
+    border-bottom: 2px solid black;
+}
+
+.ab a {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+.ab a:hover {
+    color: rgb(184, 8, 8);
+}
+
+
+/*////////////////////////////////////////////////////////YAMAHA*/
+
+#page .xe .yamaha {
+    margin: auto;
+    width: 1000px;
+    height: 32px;
+    background-color: #eee;
+    border-top: #b80808 solid;
+    margin-top: 450px;
+}
+
+#page .xe .yamaha .hover {
+    cursor: pointer;
+}
+
+#page .xe .yamaha .hover:hover {
+    transform: scale(1.05);
+}
+
+#page .xe .yamaha .tuayamaha .iconyamaha {
+    float: left;
+    background-color: rgb(184, 8, 8);
+    width: 150px;
+    height: 30px;
+}
+
+#page .xe .yamaha .tuayamaha .iconyamaha h3 {
+    text-align: center;
+}
+
+#page .xe .yamaha .tuayamaha .tcyamaha {
+    float: right;
+    text-decoration: none;
+    background-color: rgb(184, 8, 8);
+    color: black;
+    width: 150px;
+    height: 30px;
+    text-align: center;
+}
+
+.xe .yamaha .spyamaha {
+    width: 1000px;
+    margin: auto;
+    height: 300px;
+    margin-top: 33px;
+}
+
+.xe .yamaha .spyamaha .frt {
+    width: 240px;
+    margin-left: 0px;
+    float: left;
+    background-color: white;
+    border: solid 1px #999;
+    border-bottom: 2px solid black;
+}
+
+.frt a {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+.frt a:hover {
+    color: rgb(184, 8, 8);
+}
+
+.xe .yamaha .spyamaha .fr {
+    float: left;
+    background-color: white;
+    margin-left: 9px;
+    width: 242px;
+    border: solid 1px #999;
+    border-bottom: 2px solid black;
+}
+
+.fr a {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+.fr a:hover {
+    color: rgb(184, 8, 8);
+}
+
+.xe .yamaha .spyamaha .gr {
+    float: left;
+    background-color: white;
+    margin-left: 9px;
+    width: 242px;
+    border: solid 1px #999;
+    border-bottom: 2px solid black;
+}
+
+.gr a {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+.gr a:hover {
+    color: rgb(184, 8, 8);
+}
+
+.xe .yamaha .spyamaha .lt {
+    float: left;
+    background-color: white;
+    margin-left: 5px;
+    width: 242px;
+    border: solid 1px #999;
+    border-bottom: 2px solid black;
+}
+
+.lt a {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+.lt a:hover {
+    color: rgb(184, 8, 8);
+}
+
+
+/*//////////////////////suzuki////*/
+
+#page .xe .suzuki {
+    margin: auto;
+    width: 1000px;
+    height: 32px;
+    background-color: #eee;
+    border-top: #b80808 solid;
+    margin-top: 450px;
+}
+
+#page .xe .suzuki .hover {
+    cursor: pointer;
+}
+
+#page .xe .suzuki .hover:hover {
+    transform: scale(1.05);
+}
+
+#page .xe .suzuki .tuasuzuki .iconsuzuki {
+    float: left;
+    background-color: rgb(184, 8, 8);
+    width: 150px;
+    height: 30px;
+}
+
+#page .xe .suzuki .tuasuzuki .iconsuzuki h3 {
+    text-align: center;
+}
+
+#page .xe .suzuki .tuasuzuki .tcsuzuki {
+    float: right;
+    text-decoration: none;
+    background-color: rgb(184, 8, 8);
+    color: black;
+    width: 150px;
+    height: 30px;
+    text-align: center;
+}
+
+.xe .suzuki .spsuzuki {
+    width: 1000px;
+    margin: auto;
+    height: 300px;
+    margin-top: 33px;
+}
+
+.xe .suzuki .spsuzuki .rd {
+    width: 240px;
+    margin-left: 0px;
+    float: left;
+    background-color: white;
+    border: solid 1px #999;
+    border-bottom: 2px solid black;
+}
+
+.rd a {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+.rd a:hover {
+    color: rgb(184, 8, 8);
+}
+
+.xe .suzuki .spsuzuki .st {
+    float: left;
+    background-color: white;
+    margin-left: 9px;
+    width: 242px;
+    border: solid 1px #999;
+    border-bottom: 2px solid black;
+}
+
+.st a {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+.st a:hover {
+    color: rgb(184, 8, 8);
+}
+
+.xe .suzuki .spsuzuki .gs {
+    float: left;
+    background-color: white;
+    margin-left: 9px;
+    width: 242px;
+    border: solid 1px #999;
+    border-bottom: 2px solid black;
+}
+
+.gs a {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+.gs a:hover {
+    color: rgb(184, 8, 8);
+}
+
+.xe .suzuki .spsuzuki .im {
+    float: left;
+    background-color: white;
+    margin-left: 5px;
+    width: 242px;
+    border: solid 1px #999;
+    border-bottom: 2px solid black;
+}
+
+.im a {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+.im a:hover {
+    color: rgb(184, 8, 8);
+}
+
+
+/* xe nhap khau */
+
+#page .xe .nhapkhau {
+    margin: auto;
+    width: 1000px;
+    height: 32px;
+    background-color: #eee;
+    border-top: #b80808 solid;
+    margin-top: 450px;
+}
+
+#page .xe .nhapkhau .hover {
+    cursor: pointer;
+}
+
+#page .xe .nhapkhau .hover:hover {
+    transform: scale(1.05);
+}
+
+#page .xe .nhapkhau .tuanhapkhau .iconnhapkhau {
+    float: left;
+    background-color: rgb(184, 8, 8);
+    width: 150px;
+    height: 30px;
+}
+
+#page .xe .nhapkhau .tuanhapkhau .iconnhapkhau h3 {
+    text-align: center;
+}
+
+#page .xe .nhapkhau .tuanhapkhau .tcnhapkhau {
+    float: right;
+    text-decoration: none;
+    background-color: rgb(184, 8, 8);
+    color: black;
+    width: 150px;
+    height: 30px;
+    text-align: center;
+}
+
+.xe .nhapkhau .spnhapkhau {
+    width: 1000px;
+    margin: auto;
+    height: 300px;
+    margin-top: 33px;
+}
+
+.xe .nhapkhau .spnhapkhau .shnk {
+    width: 240px;
+    margin-left: 0px;
+    float: left;
+    background-color: white;
+    border: solid 1px #999;
+    border-bottom: 2px solid black;
+}
+
+.shnk a {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+.shnk a:hover {
+    color: rgb(184, 8, 8);
+}
+
+.xe .nhapkhau .spnhapkhau .fz {
+    float: left;
+    background-color: white;
+    margin-left: 9px;
+    width: 242px;
+    border: solid 1px #999;
+    border-bottom: 2px solid black;
+}
+
+.fz a {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+.fz a:hover {
+    color: rgb(184, 8, 8);
+}
+
+.xe .nhapkhau .spnhapkhau .lx {
+    float: left;
+    background-color: white;
+    margin-left: 9px;
+    width: 242px;
+    border: solid 1px #999;
+    border-bottom: 2px solid black;
+}
+
+.lx a {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+.lx a:hover {
+    color: rgb(184, 8, 8);
+}
+
+.xe .nhapkhau .spnhapkhau .xr {
+    float: left;
+    background-color: white;
+    margin-left: 5px;
+    width: 242px;
+    border: solid 1px #999;
+    border-bottom: 2px solid black;
+}
+
+.xr a {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+.xr a:hover {
+    color: rgb(184, 8, 8);
+}
+
+
+/* kawasakiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii */
+
+#page .xe .kawasaki {
+    margin: auto;
+    width: 1000px;
+    height: 32px;
+    background-color: #eee;
+    border-top: #b80808 solid;
+    margin-top: 450px;
+}
+
+#page .xe .kawasaki .hover {
+    cursor: pointer;
+}
+
+#page .xe .kawasaki .hover:hover {
+    transform: scale(1.05);
+}
+
+#page .xe .nhapkhau .hover {
+    cursor: pointer;
+}
+
+#page .xe .nhapkhau .hover:hover {
+    transform: scale(1.05);
+}
+
+#page .xe .kawasaki .tuakawasaki .iconkawasaki {
+    float: left;
+    background-color: rgb(184, 8, 8);
+    width: 150px;
+    height: 30px;
+}
+
+#page .xe .kawasaki .tuakawasaki .iconkawasaki h3 {
+    text-align: center;
+}
+
+#page .xe .kawasaki .tuakawasaki .tckawasaki {
+    float: right;
+    text-decoration: none;
+    background-color: rgb(184, 8, 8);
+    color: black;
+    width: 150px;
+    height: 30px;
+    text-align: center;
+}
+
+.xe .kawasaki .spkawasaki {
+    width: 1000px;
+    margin: auto;
+    height: 300px;
+    margin-top: 33px;
+}
+
+.xe .kawasaki .spkawasaki .z900 {
+    width: 240px;
+    margin-left: 0px;
+    float: left;
+    background-color: white;
+    border: solid 1px #999;
+    border-bottom: 2px solid black;
+}
+
+.z900 a {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+.z900 a:hover {
+    color: rgb(184, 8, 8);
+}
+
+.xe .kawasaki .spkawasaki .kw {
+    float: left;
+    background-color: white;
+    margin-left: 9px;
+    width: 242px;
+    border: solid 1px #999;
+    border-bottom: 2px solid black;
+}
+
+.kw a {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+.kw a:hover {
+    color: rgb(184, 8, 8);
+}
+
+.xe .kawasaki .spkawasaki .kl {
+    float: left;
+    background-color: white;
+    margin-left: 9px;
+    width: 242px;
+    border: solid 1px #999;
+    border-bottom: 2px solid black;
+}
+
+.kl a {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+.kl a:hover {
+    color: rgb(184, 8, 8);
+}
+
+.xe .kawasaki .spkawasaki .k54 {
+    float: left;
+    background-color: white;
+    margin-left: 5px;
+    width: 242px;
+    border: solid 1px #999;
+    border-bottom: 2px solid black;
+}
+
+.k54 a {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+.k54 a:hover {
+    color: rgb(184, 8, 8);
+}
+
+#page .xe .kawasaki {
+    margin: auto;
+    width: 1000px;
+    height: 32px;
+    background-color: #eee;
+    border-top: #b80808 solid;
+    margin-top: 450px;
+}
+
+#page .xe .kawasaki .tuakawasaki .iconkawasaki {
+    float: left;
+    background-color: rgb(184, 8, 8);
+    width: 150px;
+    height: 30px;
+}
+
+#page .xe .kawasaki .tuakawasaki .iconkawasaki h3 {
+    text-align: center;
+}
+
+#page .xe .kawasaki .tuakawasaki .tckawasaki {
+    float: right;
+    text-decoration: none;
+    background-color: rgb(184, 8, 8);
+    color: black;
+    width: 150px;
+    height: 30px;
+    text-align: center;
+}
+
+.xe .kawasaki .spkawasaki {
+    width: 1000px;
+    margin: auto;
+    height: 300px;
+    margin-top: 33px;
+}
+
+.xe .kawasaki .spkawasaki .z900 {
+    width: 240px;
+    margin-left: 0px;
+    float: left;
+    background-color: white;
+    border: solid 1px #999;
+    border-bottom: 2px solid black;
+}
+
+.z900 a {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+.z900 a:hover {
+    color: rgb(184, 8, 8);
+}
+
+.xe .kawasaki .spkawasaki .kw {
+    float: left;
+    background-color: white;
+    margin-left: 9px;
+    width: 242px;
+    border: solid 1px #999;
+    border-bottom: 2px solid black;
+}
+
+.kw a {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+.kw a:hover {
+    color: rgb(184, 8, 8);
+}
+
+.xe .kawasaki .spkawasaki .kl {
+    float: left;
+    background-color: white;
+    margin-left: 9px;
+    width: 242px;
+    border: solid 1px #999;
+    border-bottom: 2px solid black;
+}
+
+.kl a {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+.kl a:hover {
+    color: rgb(184, 8, 8);
+}
+
+.xe .kawasaki .spkawasaki .k54 {
+    float: left;
+    background-color: white;
+    margin-left: 5px;
+    width: 242px;
+    border: solid 1px #999;
+    border-bottom: 2px solid black;
+}
+
+.k54 a {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+.k54 a:hover {
+    color: rgb(184, 8, 8);
+}
+
+
+/* SYMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM */
+
+#page .xe .sym {
+    margin: auto;
+    width: 1000px;
+    height: 32px;
+    background-color: #eee;
+    border-top: #b80808 solid;
+    margin-top: 450px;
+}
+
+#page .xe .sym .hover {
+    cursor: pointer;
+}
+
+#page .xe .sym .hover:hover {
+    transform: scale(1.05);
+}
+
+#page .xe .sym .tuasym .iconsym {
+    float: left;
+    background-color: rgb(184, 8, 8);
+    width: 150px;
+    height: 30px;
+}
+
+#page .xe .sym .tuasym .iconsym h3 {
+    text-align: center;
+}
+
+#page .xe .sym .tuasym .tcsym {
+    float: right;
+    text-decoration: none;
+    background-color: rgb(184, 8, 8);
+    color: black;
+    width: 150px;
+    height: 30px;
+    text-align: center;
+}
+
+.xe .sym .spsym {
+    width: 1000px;
+    margin: auto;
+    height: 300px;
+    margin-top: 33px;
+}
+
+.xe .sym .spsym .abe {
+    width: 240px;
+    margin-left: 0px;
+    float: left;
+    background-color: white;
+    border: solid 1px #999;
+    border-bottom: 2px solid black;
+}
+
+.abe a {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+.abe a:hover {
+    color: rgb(184, 8, 8);
+}
+
+.xe .sym .spsym .ang {
+    float: left;
+    background-color: white;
+    margin-left: 9px;
+    width: 242px;
+    border: solid 1px #999;
+    border-bottom: 2px solid black;
+}
+
+.ang a {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+.ang a:hover {
+    color: rgb(184, 8, 8);
+}
+
+.xe .sym .spsym .ga {
+    float: left;
+    background-color: white;
+    margin-left: 9px;
+    width: 242px;
+    border: solid 1px #999;
+    border-bottom: 2px solid black;
+}
+
+.ga a {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+.ga a:hover {
+    color: rgb(184, 8, 8);
+}
+
+.xe .sym .spsym .fancy {
+    float: left;
+    background-color: white;
+    margin-left: 5px;
+    width: 242px;
+    border: solid 1px #999;
+    border-bottom: 2px solid black;
+}
+
+.fancy a {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+.fancy a:hover {
+    color: rgb(184, 8, 8);
+}
+
+
+/* PIAGGO0000000000000000000000000000000000000000000000000000 */
+
+#page .xe .vespa {
+    margin: auto;
+    width: 1000px;
+    height: 32px;
+    background-color: #eee;
+    border-top: #b80808 solid;
+    margin-top: 450px;
+}
+
+#page .xe .vespa .hover {
+    cursor: pointer;
+}
+
+#page .xe .vespa .hover:hover {
+    transform: scale(1.05);
+}
+
+#page .xe .vespa .tuavespa .iconvespa {
+    float: left;
+    background-color: rgb(184, 8, 8);
+    width: 150px;
+    height: 30px;
+}
+
+#page .xe .vespa .tuavespa .iconvespa h3 {
+    text-align: center;
+}
+
+#page .xe .vespa .tuavespa .tcvespa {
+    float: right;
+    text-decoration: none;
+    background-color: rgb(184, 8, 8);
+    color: black;
+    width: 150px;
+    height: 30px;
+    text-align: center;
+}
+
+.xe .vespa .spvespa {
+    width: 1000px;
+    margin: auto;
+    height: 300px;
+    margin-top: 33px;
+}
+
+.xe .vespa .spvespa .xblu {
+    width: 240px;
+    margin-left: 0px;
+    float: left;
+    background-color: white;
+    border: solid 1px #999;
+    border-bottom: 2px solid black;
+}
+
+.xblu a {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+.xblu a:hover {
+    color: rgb(184, 8, 8);
+}
+
+.xe .vespa .spvespa .gts125 {
+    float: left;
+    background-color: white;
+    margin-left: 9px;
+    width: 242px;
+    border: solid 1px #999;
+    border-bottom: 2px solid black;
+}
+
+.gts125 a {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+.gts a:hover {
+    color: rgb(184, 8, 8);
+}
+
+.xe .vespa .spvespa .gts300 {
+    float: left;
+    background-color: white;
+    margin-left: 9px;
+    width: 242px;
+    border: solid 1px #999;
+    border-bottom: 2px solid black;
+}
+
+.gts300 a {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+.gts300 a:hover {
+    color: rgb(184, 8, 8);
+}
+
+.xe .vespa .spvespa .px125 {
+    float: left;
+    background-color: white;
+    margin-left: 5px;
+    width: 242px;
+    border: solid 1px #999;
+    border-bottom: 2px solid black;
+}
+
+.px125 a {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+.px125 a:hover {
+    color: rgb(184, 8, 8);
+}
+
+
+/* nhà phát triển */

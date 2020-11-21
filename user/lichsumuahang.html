@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css.css">
+    <link rel="stylesheet" href="js.js">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Lịch sử giao dịch</title>
+</head>
+<style>
+    body {
+        background-color: #f5f5f5;
+        font-family: 'Times New Roman';
+    }
+    
+    .content {
+        display: flex;
+        margin-left: 15px;
+        float: left;
+        width: 23%;
+    }
+    
+    .left {
+        width: 210px;
+    }
+    
+    .user-page {
+        display: flex;
+        float: left;
+        margin-top: 30px;
+        width: 210px;
+    }
+    
+    .avatar {
+        width: 50px;
+        height: 50px;
+        border: 1px solid;
+        border-radius: 50px;
+    }
+    
+    .avatar-placeholder i {
+        font-size: 37px;
+        margin-top: 6px;
+        margin-left: 9px;
+    }
+    
+    .user-right {
+        margin-left: 14px;
+    }
+    
+    .suahoso a {
+        text-decoration: none;
+    }
+    
+    .suahoso i {
+        font-size: 10px;
+        padding-right: 6px;
+    }
+    
+    .userpage-menu {
+        float: left;
+        margin-top: 30px;
+    }
+    
+    .hoso {
+        display: flex;
+        float: left;
+        width: 210px;
+        margin-bottom: 20px;
+    }
+    
+    .icon-user {
+        height: 20px;
+        width: 20px;
+        border: 1px solid;
+        border-radius: 50px;
+        float: left;
+    }
+    
+    .icon-user i {
+        margin-left: 3px;
+    }
+    
+    .taikhoancuatoi {
+        float: right;
+        padding-left: 6px
+    }
+    
+    .lichsu {
+        float: left;
+        width: 210px;
+    }
+    
+    .icon-ls i {
+        font-size: 15px;
+        float: left;
+        padding-top: 3px;
+        padding-left: 3px;
+    }
+    
+    .lichsugiaodich {
+        float: left;
+        margin-left: 7px;
+        color: brown;
+    }
+    
+    .icon-ls {
+        width: 20px;
+        height: 20px;
+        float: left;
+        border: 1px solid;
+        border-radius: 50px;
+    }
+    
+    .right {
+        width: 67%;
+        height: 700px;
+        border: none;
+        float: left;
+        margin-top: 20px;
+        margin-right: 20px;
+        background-color: white;
+    }
+    
+    .xegiaodich-content {
+        display: flex;
+        border-bottom: 1px solid;
+    }
+    
+    .chitiet {
+        padding-top: 15px;
+        padding-left: 10px;
+    }
+    
+    .xegiaodich-page {
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    
+    .bt-huy {
+        padding-top: 60px;
+        padding-left: 430px;
+    }
+    
+    .bt-huy button {
+        border: none;
+        border-radius: 5px;
+        outline-color: brown;
+        height: 25px;
+        width: 90px;
+        background-color: #eee;
+    }
+    
+    .bt-huy button:hover {
+        border: 1px solid brown;
+    }
+    
+    .user-page a {
+        color: black;
+    }
+    
+    .lichsu a {
+        color: brown;
+    }
+    
+    .hoso a {
+        color: black;
+    }
+</style>
+
+<body>
+    <div class="page">
+        <div class="dautien" style="width: 100%;height: 100px;background-color: rgb(19, 18, 18);">
+
+            <div class="logo" style=" float: left;width: 180px;height: 50px;padding-left: 50px;padding-top: 20px;">
+                <a href="user.html">
+                    <h1>VAXEMAY</h1>
+                </a>
+            </div>
+
+            <div class="timkiem" style="float: left;;padding-top: 20px;padding-left: 20px;">
+
+                <input type="text" placeholder="Tìm Kiếm" style="width: 500px;height: 30px;">
+                <button style="height: 33px;width: 70px;margin-left: -4px; background-color: brown;border: none; color: white;">Tìm</button>
+
+            </div>
+
+
+            <div class="pk" style="width: 400px; height: 30px; margin-left: 320px; padding-top: 60px;">
+
+                <div class="50cc s" style="float: left;">
+                    <a href="">
+                        <h4>50cc</h4>
+                    </a>
+                </div>
+                <div class=" 100cc s " style="float: left; ">
+                    <a href=" ">
+                        <h4>100cc</h4>
+                    </a>
+                </div>
+                <div class="150cc s " style="float: left; ">
+                    <a href=" ">
+                        <h4>150cc</h4>
+                    </a>
+                </div>
+                <div class="pkl s " style="float: left; ">
+                    <a href=" ">
+                        <h4>Phân khối lớn</h4>
+                    </a>
+                </div>
+
+
+
+
+            </div>
+
+            <div class="dangky" style="width: 450px; height: 40px; float: right;margin-top: -75px;font-family: 'Times New Roman', Times, serif; ">
+                <div class="lienhe a ">
+                    <a href="lichsumuahang.html">
+                        <h5>Lịch sử mua hàng</h5>
+                    </a>
+                </div>
+                <div class="dangky a user" style="width: 57px;">
+                    <a href="hoso.html">
+                        <h5>User</h5>
+                        <button class="bt-user"> 
+                            <i class="fas fa-user"></i>
+                        </button>
+                    </a>
+                </div>
+
+                <div class="dangnhap a ">
+                    <a href="">
+                        <h5></h5>
+                    </a>
+                </div>
+                <div class="hotline a ">
+                    <h5 style="color: brown; ">Hot Line : 0123456789</h5>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="content">
+            <div class="left">
+                <div class="user-page">
+                    <a class="avatar" href="hoso.html">
+                        <div class="avatar-placeholder">
+                            <i class="far fa-user"></i>
+                        </div>
+                    </a>
+                    <div class="user-right">
+                        <div class="name-user">User</div>
+                        <div class="suahoso">
+                            <a href="hoso.html">
+                                <i class="fas fa-pen"></i>Sửa Hồ Sơ
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="userpage-menu">
+                    <div class="hoso">
+                        <a href="hoso.html">
+                            <div class="icon-user"><i class="fas fa-user"></i></div>
+                            <div class="taikhoancuatoi">Tài khoảng của tôi</div>
+                        </a>
+                    </div>
+                    <div class="lichsu">
+                        <a href="lichsumuahang.html">
+                            <div class="icon-ls"><i class="fas fa-book"></i></div>
+                            <div class="lichsugiaodich">Lịch sử giao dịch</div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="right">
+            <div class="xegiaodich-page">
+                <div class="xegiaodich-content">
+                    <div class="xegiaodich-1">
+                        <a href="./chitietsp/honda/MSX125.html">
+                            <img src="../user/img/msx125-2020.png" style="width: 250px;">
+                        </a>
+                    </div>
+                    <div class="chitiet">
+                        <h4>Địa chỉ: </h4>
+                        <p>khu phố 1, phường 1, thành phố HCM</p>
+                        <h4>Ngày đặt: </h4>
+                        <p>30/2/2020</p>
+                        <a href="./lichdadat.html" style="text-decoration: none;">
+                            <label>Chi tiết hơn về ngày đặt lịch</label>
+                        </a>
+                        <div class="bt-huy">
+                            <button>Hủy đặt lịch</button>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="xegiaodich-content">
+                    <div class="xegiaodich-1">
+                        <a href="./chitietsp/honda/CB300R.html">
+                            <img src="../user/img/CB300R.png" style="width: 250px;">
+                        </a>
+                    </div>
+                    <div class="chitiet">
+                        <h4>Địa chỉ: </h4>
+                        <p>Quận 1, thành phố HCM</p>
+                        <h4>Ngày đặt: </h4>
+                        <p>18/10/2020</p>
+                        <a href="./lichdadat.html" style="text-decoration: none;">
+                            <label>Chi tiết hơn về ngày đặt lịch</label>
+                        </a>
+                        <div class="bt-huy">
+                            <button>Hủy đặt lịch</button>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,150 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.page {
+    width: 1200px;
+    min-height: 500px;
+    background-color: blue;
+}
+
+.logo {
+    width: 1276px;
+    height: 100px;
+    background-color: black;
+}
+
+.logo a,
+h1 {
+    text-decoration: none;
+    color: brown;
+    text-align: center;
+    padding-top: 29px;
+}
+
+.trai {
+    width: 300px;
+    height: 500px;
+    background-color: brown;
+    float: left;
+}
+
+.trai .admin {
+    padding-top: 15px;
+}
+
+.trai .admin .inconadmin {
+    float: left;
+    margin-left: 38px;
+    width: 30px;
+    height: 30px;
+}
+
+.trai .admin .chuadmin {
+    float: left;
+    margin-right: 20px;
+    width: 30px;
+    height: 30px;
+    margin-top: 5px;
+}
+
+.trai .admin .email {
+    float: left;
+    margin-left: 15px;
+    margin-top: 3px
+}
+
+.email>a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.email>h4 {
+    color: #eee;
+    font-family: initial;
+}
+
+.chucnang {
+    width: 300px;
+    min-height: 300px;
+    padding-top: 50px;
+}
+
+.chucnang .chungtrai {
+    width: 300px;
+    height: 30px;
+    margin-top: 30px;
+}
+
+.chucnang .thongbao {
+    background-color: white;
+}
+
+.chucnang .chungtrai:hover {
+    background-color: #eee;
+}
+
+.chucnang .chungtrai a {
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+
+.phai {
+    width: 1276px;
+    min-height: 500px;
+    float: revert;
+}
+
+.phai .lichhen .lhtext {
+    background-color: lightblue;
+}
+
+.lhtext h3 {
+    text-align: center;
+}
+
+.hen1 .sp {
+    margin-left: -50px;
+}
+
+.hen1 .sphen {
+    float: left;
+    background-color: #eee;
+    width: 300px;
+    height: 120px;
+    padding-left: 66px;
+    margin-left: 20px;
+    margin-top: 5px;
+    border-color: beige;
+    border-radius: 10px
+}
+
+.hen2 .sphen {
+    float: right;
+    background-color: #eee;
+    width: 300px;
+    height: 120px;
+    padding-left: 66px;
+    margin-right: 20px;
+    margin-top: 5px;
+    border-color: beige;
+    border-radius: 10px
+}
+
+.hen2 .sp {
+    margin-left: -50px;
+}
+
+.sp {
+    width: 200px;
+    height: 200px;
+    float: left;
+}
+
+.chitietngayhen {
+    float: left;
+    margin-left: -80px;
+    margin-top: 20px;
+}

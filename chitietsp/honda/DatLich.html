@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đặt lịch hẹn</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+    .page {
+        width: 100%;
+        background-color: rgb(43, 41, 41);
+    }
+    
+    .gioithieu {
+        width: 100%;
+        height: 100px;
+        background-color: rgb(43, 41, 41);
+    }
+    
+    .gioithieu .logo {
+        padding-top: 20px;
+    }
+    
+    .gioithieu a {
+        padding-top: 15px;
+        text-align: center;
+        text-align: center;
+        text-decoration: none;
+        color: #b80808;
+    }
+    
+    .fa-asterisk {
+        font-size: 7px;
+        color: red;
+    }
+    
+    .main {
+        border: 1px solid #eeeeee;
+        margin: auto;
+        width: 760px;
+        background-color: white;
+    }
+    
+    .content {
+        width: 700px;
+        margin: auto;
+        height: 760px;
+    }
+    
+    .hoten {
+        width: 50%;
+        float: left;
+    }
+    
+    .email {
+        width: 50%;
+        float: left;
+    }
+    
+    .dienthoai {
+        width: 50%;
+        float: left;
+    }
+    
+    .CMND {
+        width: 50%;
+        float: left;
+    }
+    
+    .ngayhen {
+        width: 50%;
+        float: left;
+    }
+    
+    .ngayhen select {
+        border: 1px solid #ccc;
+        outline-color: #ccc;
+    }
+    
+    .ngayhen input {
+        border: 1px solid #ccc;
+        outline-color: #ccc;
+    }
+    
+    .ngayhen .ngay {
+        height: 35px;
+    }
+    
+    .ngayhen .thang {
+        height: 35px;
+    }
+    
+    .ngayhen .nam {
+        height: 31px;
+    }
+    
+    .giohen {
+        width: 50%;
+        float: left;
+    }
+    
+    .loinhac {
+        width: 100%;
+        float: left;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    
+    .diachi {
+        width: 100%;
+        float: left;
+    }
+    
+    .noidung {
+        width: 100%;
+        float: left;
+    }
+    
+    .ketthuctrang {
+        width: 100%;
+        height: 100px;
+        background-color: #999;
+        margin-top: 50px;
+    }
+    
+    .hoten input {
+        width: 290px;
+        height: 30px;
+        border: 1px solid #ccc;
+        outline-color: #ccc;
+    }
+    
+    .email input {
+        width: 350px;
+        height: 30px;
+        border: 1px solid #ccc;
+        outline-color: #ccc;
+    }
+    
+    .dienthoai input {
+        width: 290px;
+        height: 30px;
+        border: 1px solid #ccc;
+        outline-color: #ccc;
+    }
+    
+    .CMND input {
+        width: 350px;
+        height: 30px;
+        border: 1px solid #ccc;
+        outline-color: #ccc;
+    }
+    
+    .giohen select {
+        width: 70px;
+        height: 35px;
+        border: 1px solid #ccc;
+        outline-color: #ccc;
+    }
+    
+    .diachi textarea {
+        border: 1px solid #ccc;
+        outline-color: #ccc;
+        width: 95%;
+    }
+    
+    .noidung textarea {
+        border: 1px solid #ccc;
+        outline-color: #ccc;
+        width: 95%;
+    }
+    
+    .bt-datlich {
+        display: block;
+        text-align: center;
+    }
+    
+    .bt-datlich button {
+        width: 270px;
+        height: 50px;
+        font-size: 20px;
+        margin-top: 30px;
+        border: none;
+        outline-color: #940606;
+        background-color: #940606;
+        color: white;
+    }
+    
+    .bt-datlich button:hover {
+        box-shadow: 7px 7px 8px#CCCD;
+    }
+</style>
+
+<body>
+    <div class="page">
+        <div class="gioithieu">
+            <div class="logo">
+                <a href="../../index.html">
+                    <h1>VAXEMAY</h1>
+                </a>
+            </div>
+
+        </div>
+        <div class="main">
+            <div class="content">
+                <div class="hoten">
+                    <h3>Họ tên<i class="fas fa-asterisk"></i></h3>
+                    <input type="text" placeholder="Nhập họ tên của bạn">
+                </div>
+                <div class="email">
+                    <h3>Email <i class="fas fa-asterisk"></i></h3>
+                    <input type="text" placeholder="Nhập địa chỉ Email của bạn">
+                </div>
+                <div class="dienthoai">
+                    <h3>Điện thoại <i class="fas fa-asterisk"></i></h3>
+                    <input type="text" placeholder="Nhập số điện thoại của bạn">
+                </div>
+                <div class="CMND">
+                    <h3>Số CMT/CCCD <i class="fas fa-asterisk"></i></h3>
+                    <input type="text" placeholder="Nhập số CMND của bạn">
+                </div>
+                <div class="ngayhen">
+                    <h3>Ngày hẹn <i class="fas fa-asterisk"></i></h3>
+                    <select name="ngay" id="ngay" class="ngay">
+                    <option value="ngay">ngày</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                    <option value="11">11</option>
+                    <option value="12">12</option>
+                    <option value="13">13</option>
+                    <option value="14">14</option>
+                    <option value="15">15</option>
+                    <option value="16">16</option>
+                    <option value="17">17</option>
+                    <option value="18">18</option>
+                    <option value="19">19</option>
+                    <option value="20">20</option>
+                    <option value="21">21</option>
+                    <option value="22">22</option>
+                    <option value="23">23</option>
+                    <option value="24">24</option>
+                    <option value="25">25</option>
+                    <option value="26">26</option>
+                    <option value="27">27</option>
+                    <option value="28">28</option>
+                    <option value="29">29</option>
+                    <option value="30">30</option>
+                    <option value="31">31</option>
+                </select>
+                    <select name="thang" id="thang" class="thang">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                    <option value="11">11</option>
+                    <option value="12">12</option>
+                </select>
+                    <input type="number" name="nam" id="nam" maxlength="4" class="nam" size="5" value="2020">
+                </div>
+                <div class="giohen">
+                    <h3>Giờ hẹn <i class="fas fa-asterisk"></i></h3>
+                    <select name="gio" id="gio">
+                    <option value="gio">Giờ</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                    <option value="11">11</option>
+                    <option value="12">12</option>
+                    <option value="13">13</option>
+                    <option value="14">14</option>
+                    <option value="15">15</option>
+                    <option value="16">16</option>
+                    <option value="17">17</option>
+                </select>
+                    <select name="phut" id="phut">
+                    <option value="phut">Phút</option>
+                    <option value="0">0</option>
+                    <option value="05">05</option>
+                    <option value="10">10</option>
+                    <option value="15">15</option>
+                    <option value="20">20</option>
+                    <option value="25">25</option>
+                    <option value="30">30</option>
+                    <option value="35">35</option>
+                    <option value="40">40</option>
+                    <option value="45">45</option>
+                    <option value="50">50</option>
+                    <option value="55">55</option>
+                </select>
+                </div>
+                <label class="loinhac">Quý khách vui lòng đặt lịch hẹn trước 4 giờ(làm việc) để được phục vu tốt hơn</label>
+                <div class="diachi">
+                    <h3>Địa chỉ <i class="fas faasterisk"></i></h3>
+                    <textarea name="diachi" id="" cols="98" rows="5"></textarea>
+                </div>
+                <div class="noidung">
+                    <h3>Nội dung</h3>
+                    <textarea name="noidung" id="" cols="98" rows="5"></textarea>
+                </div>
+                <div class="bt-datlich">
+                    <a href="../../index.html">
+                        <button>Xác nhận đặt lịch</button>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+        <div class="ketthuctrang" style="background-color: rgb(43, 41, 41);">
+            <p style="float: right; color: brown;margin-right: 50px;">Hotline: <a href="0123456789" style="text-decoration: none;color: brown;">123456789</a></p>
+
+        </div>
+    </div>
+</body>
+
+</html>

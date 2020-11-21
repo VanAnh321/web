@@ -1,0 +1,171 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.page {
+    width: 1200px;
+    min-height: 500px;
+    background-color: blue;
+}
+
+.logo {
+    width: 1276px;
+    height: 100px;
+    background-color: black;
+}
+
+.logo a,
+h1 {
+    text-decoration: none;
+    color: brown;
+    text-align: center;
+    padding-top: 29px;
+}
+
+.trai {
+    width: 300px;
+    height: 500px;
+    background-color: brown;
+    float: left;
+}
+
+.trai .admin {
+    padding-top: 15px;
+}
+
+.trai .admin .inconadmin {
+    float: left;
+    margin-left: 38px;
+    width: 30px;
+    height: 30px;
+}
+
+.trai .admin .chuadmin {
+    float: left;
+    margin-right: 20px;
+    width: 30px;
+    height: 30px;
+    margin-top: 5px;
+}
+
+.trai .admin .email {
+    float: left;
+    margin-left: 15px;
+    margin-top: 3px
+}
+
+.email>a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.email>h4 {
+    color: #eee;
+    font-family: initial;
+}
+
+.chucnang {
+    width: 300px;
+    min-height: 300px;
+    padding-top: 50px;
+}
+
+.chucnang .chungtrai {
+    width: 300px;
+    height: 30px;
+    margin-top: 30px;
+}
+
+.chucnang .khachhanga {
+    background-color: white;
+}
+
+.chucnang .chungtrai:hover {
+    background-color: #eee;
+}
+
+.chucnang .chungtrai a {
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+
+.phai {
+    width: 1276px;
+    min-height: 500px;
+    float: revert;
+}
+
+.phai .khachhang .tkkhachhang .tktext {
+    background-color: cadetblue;
+}
+
+.tktext h3 {
+    text-align: center;
+}
+
+.cttk {
+    float: right;
+    width: 976px;
+    height: 480px;
+}
+
+.cttk .macdinh {
+    margin-top: 10px;
+    width: 970px;
+    background-color: aqua;
+}
+
+.cttk .gmail {
+    width: 320px;
+    height: 30px;
+    float: left;
+}
+
+.gmail p {
+    text-align: center;
+}
+
+.cttk .sdt {
+    width: 320px;
+    height: 30px;
+    float: left;
+}
+
+.cttk .lichhen {
+    width: 320px;
+    height: 30px;
+    float: left;
+}
+
+.gma {
+    width: 320px;
+    height: 30px;
+    float: left;
+}
+
+.gma a {
+    margin-left: 100px;
+    text-decoration: none;
+}
+
+.sdta {
+    width: 320px;
+    height: 30px;
+    float: left;
+}
+
+.sdta a {
+    text-decoration: none;
+}
+
+.lichhena {
+    width: 320px;
+    height: 30px;
+    float: left;
+}
+
+.lichhena a {
+    text-decoration: none;
+}

@@ -1,0 +1,75 @@
+.gt {
+    background-color: rgb(19, 18, 18);
+    width: 100%;
+    min-height: 150px;
+    margin-top: 100px;
+}
+
+.gt .noidung {
+    float: left;
+}
+
+.gt .noidung a {
+    text-decoration: none;
+    width: 200px;
+}
+
+.gt .noidung h5 {
+    margin-left: 100px;
+    padding-top: 15px;
+    color: brown;
+}
+
+.gt .noidung h5:hover {
+    color: white;
+}
+
+.gt .cuoitrang {
+    width: 250px;
+}
+
+
+/* sdt */
+
+.gt .sdt .a {
+    padding: 18px;
+    margin-left: 500px;
+}
+
+.gt .sdt .a h5 {
+    float: left;
+    color: brown;
+}
+
+.gt .sdt .a a {
+    float: left;
+    margin-left: 10px;
+    font-size: small;
+    text-decoration: none;
+    color: brown;
+    margin-top: 5px;
+}
+
+.gt .sdt .a a:hover {
+    color: white;
+}
+
+
+/* npt */
+
+.gt .npt {
+    float: left;
+    margin-top: -93px;
+    margin-left: 1000px;
+}
+
+.gt .npt h4 {
+    color: yellowgreen;
+}
+
+.gt .npt a,
+h5 {
+    color: brown;
+    text-decoration: none;
+    margin-top: 5px;
+}
